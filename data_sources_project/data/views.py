@@ -5,7 +5,7 @@ from .forms import ArticleForm, InfluencerForm, QueryDataForm
 from .forms import ConversationForm,AutoCompleteForm
 
 def home(request):
-	title = "This is the home page.Django server is running successfully"
+	title = "This is the home page.Django server is running successfully"					
 	#if request.user.is_authenticated():
 	#	title = "My Title %s" %(request.user)
 	context_dict = {
