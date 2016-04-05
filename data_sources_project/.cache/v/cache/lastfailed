@@ -1,1 +1,3 @@
-{}
+{
+  "test_response.py::TestResponse::()::test_articles": true
+}

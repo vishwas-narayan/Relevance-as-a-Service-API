@@ -9,7 +9,7 @@ class TestResponse:
 		assert response.status_code == 200
 	
 	def test_articles(self,client):
-		response = client.get('/data/articles',follow=True)
+		response = client.get('/data/article',follow=True)
 		print response.content
 		assert response.status_code == 200
 

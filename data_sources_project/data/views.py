@@ -106,4 +106,3 @@ def autocomplete(request):
 		r = requests.get("http://api.rightrelevance.com/v2/topics/autocomplete",params = payload)
 		return HttpResponse(r)
 	return render(request, "data/autocomplete.html",context_dict)
-
