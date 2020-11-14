@@ -10,5 +10,3 @@ For furthur details about API,refer:http://info.rightrelevance.com/docs/api-docs
 Extraction of data from Right Relevance API using Non-GMO HTTP Library knowns as Requests.
 For furthur details,refer:http://docs.python-requests.org/en/master/
 
-Experimentation with the Python. To Used only for educational purposes only.
-
